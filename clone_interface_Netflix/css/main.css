@@ -1,0 +1,111 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo base */
+body{
+    background: var(--preto);
+    font-family: "Arial", Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family:'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #ffffffc2;
+}
+/* filme principal */
+.filme-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)), url("/resources/img/capa-flash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 2%;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:'Trebuchet MS';
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    padding: 15px;
+    color:white;
+    border: none;
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+}  
+
+.botao:hover, .botao a:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-filmes{
+    margin: 20px;
+}
+
+.carrousel-titulo{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}

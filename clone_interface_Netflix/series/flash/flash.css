@@ -1,0 +1,13 @@
+.filme-informacoes{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.filme-informacoes .texto{
+    text-align: center;
+    margin: 10px;
+}
+
+.filme-informacoes .capa{
+    margin-top: 50px;
+}
